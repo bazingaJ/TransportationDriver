@@ -1,0 +1,87 @@
+//
+//  JXPrefixHeader.pch
+//  BZWKuaiYun
+//
+//  Created by Jessey Young on 2017/5/19.
+//  Copyright © 2017年 ISU. All rights reserved.
+//
+
+#ifndef JXPrefixHeader_pch
+#define JXPrefixHeader_pch
+//工具类
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppMacros.h"
+#import "APIMacros.h"
+#import "NotificationMacros.h"
+#import "VendorMarcos.h"
+#import "JXAppTool.h"
+#import "JXDefineSwitch.h"
+#import "JXTool.h"
+#import "JXRequestTool.h"
+#import "JXOrderRequestTool.h"
+#import "UserInfo.h"
+#import "JXMainModel.h"
+#import "JXSoundPlayer.h"
+#import "JXRequestTool.h"
+#import "OrderModel.h"
+
+//模块类
+#import "HomePageVC.h"
+#import "OrdersVC.h"
+#import "MineVC.h"
+#import "MessagesVC.h"
+#import "JXInServiceVC.h"
+#import "JXCompletedVC.h"
+#import "JXCanceledVC.h"
+#import "JXLoginVC.h"
+#import "JXMainTabBarC.h"
+#import "JXSelectCity.h"
+#import "JXPaymentVC.h"
+#import "JXAboutUsVC.h"
+#import "JXOrderDetailVC.h"
+
+//第三方
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+#import "NinaPagerView.h"
+#import <SVProgressHUD.h>
+#import "MLLinkLabel.h"
+#import "JCAlertController.h"
+#import <JPUSHService.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "SDImageCache.h"
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <UMSocialCore/UMSocialCore.h>
+#import "UMMobClick/MobClick.h"
+//------支付宝------
+#import <AlipaySDK/AlipaySDK.h>
+
+//拓展类
+#import "JXAppDelegate+AppService.h"
+#import "JXAppDelegate+AppService.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* JXPrefixHeader_pch */

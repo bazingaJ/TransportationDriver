@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gbP-rH-bcm" customClass="JXMainTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dcb-1Q-CmQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Dcb-1Q-CmQ" firstAttribute="top" secondItem="gbP-rH-bcm" secondAttribute="top" id="5mb-5B-ZbJ"/>
+                <constraint firstAttribute="trailing" secondItem="Dcb-1Q-CmQ" secondAttribute="trailing" id="cTb-fN-ZzN"/>
+                <constraint firstAttribute="bottom" secondItem="Dcb-1Q-CmQ" secondAttribute="bottom" id="dpB-hG-aJH"/>
+                <constraint firstItem="Dcb-1Q-CmQ" firstAttribute="leading" secondItem="gbP-rH-bcm" secondAttribute="leading" id="eww-xr-J9P"/>
+            </constraints>
+            <connections>
+                <outlet property="tableV" destination="Dcb-1Q-CmQ" id="RmS-yK-WnC"/>
+            </connections>
+            <point key="canvasLocation" x="110" y="-20"/>
+        </view>
+    </objects>
+</document>

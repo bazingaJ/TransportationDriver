@@ -1,0 +1,21 @@
+//
+//  JXForgetCodeVC.h
+//  BZWKuaiYun
+//
+//  Created by Jessey Young on 2017/5/23.
+//  Copyright © 2017年 ISU. All rights reserved.
+//
+
+#import "JXBaseVC.h"
+#import "JKCountDownButton.h"
+
+@interface JXForgetCodeVC : JXBaseVC
+
+@property (weak, nonatomic) IBOutlet UITextField *phoneTF;
+@property (weak, nonatomic) IBOutlet UITextField *codeTF;
+
+@property (weak, nonatomic) IBOutlet JKCountDownButton *codeBtn;
+
+- (IBAction)countDownXibTouched:(JKCountDownButton*)sender;
+
+@end

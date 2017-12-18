@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JXCanceledVC">
+            <connections>
+                <outlet property="tableVi" destination="ByH-TI-PBr" id="ESw-K5-HPV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wushuju" translatesAutoresizingMaskIntoConstraints="NO" id="M1l-gV-EOo">
+                    <rect key="frame" x="87.5" y="174" width="200" height="199"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="199" id="4u8-qP-fex"/>
+                        <constraint firstAttribute="width" constant="200" id="U8K-hv-gOZ"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ByH-TI-PBr">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="iUG-6a-GmV"/>
+                        <outlet property="delegate" destination="-1" id="LQp-2h-KGH"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ByH-TI-PBr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9ec-Pb-uiX"/>
+                <constraint firstItem="ByH-TI-PBr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BPl-7J-Dce"/>
+                <constraint firstAttribute="trailing" secondItem="ByH-TI-PBr" secondAttribute="trailing" id="Nu9-qV-XAI"/>
+                <constraint firstItem="M1l-gV-EOo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XGC-Ye-zHE"/>
+                <constraint firstItem="M1l-gV-EOo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-60" id="lbi-EV-Nh2"/>
+                <constraint firstAttribute="bottom" secondItem="ByH-TI-PBr" secondAttribute="bottom" constant="40" id="tdZ-Gd-WaT"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="wushuju" width="200" height="199"/>
+    </resources>
+</document>
